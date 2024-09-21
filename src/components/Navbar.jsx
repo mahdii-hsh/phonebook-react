@@ -19,7 +19,6 @@ export default function Navbar() {
       <div className="col-start-6 col-end-8 text-end  mr-6">
         <a className="navbar-item">{optionNav.addContact}</a>
       </div>
-      <img src="" alt='' className='size-6'/>
       <div onClick={() => navigate('/login')} className="col-start-8 border-l">
         <a className="navbar-item">{optionNav.signOut}</a>
       </div>
